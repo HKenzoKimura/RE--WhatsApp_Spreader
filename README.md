@@ -1,7 +1,7 @@
 # 🧬 Malware Analysis — WhatsApp Web Spreader via VBS + Python + ChromeDriver
 
 > **Type:** Malware Reverse Engineering — Threat Analysis Report
-> **Sample:** `om5ulwy9r1i7.vbs` (7z protegido com senha `infected`)
+> **Sample:** `Evidences.vbs` (7z protegido com senha `infected`)
 > **Classification:** Worm / Social Engineering Bot / Backdoor Dropper
 > **C2 Hosts:** `empautlipa.com` · `215.176.153.160.host.secureserver.net`
 > **Platforms:** Windows x64
