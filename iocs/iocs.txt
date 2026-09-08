@@ -1,0 +1,21 @@
+# DOMAINS
+empautlipa.com
+215.176.153.160.host.secureserver.net
+
+# URLS
+https://empautlipa.com/altor/installer.msi
+https://empautlipa.com/altor/vbiud.py
+https://215.176.153.160.host.secureserver.net/986495423y5o2/986fdg9/202529834759629
+
+# FILESYSTEM
+C:\temp\instalar.bat
+C:\temp\python_install.bat
+C:\temp\whats.py
+C:\temp\python312._pth
+%TEMP%\VBS_Exec_*\*.lnk
+
+# HASHES (calcular do sample)
+EOF
+
+# Calcular hash do VBS
+sha256sum om5ulwy9r1i7.vbs >> iocs/iocs.txt
