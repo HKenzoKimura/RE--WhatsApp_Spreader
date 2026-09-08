@@ -7,6 +7,8 @@
 > **Platforms:** Windows x64
 > **Analysis:** Manual deobfuscation via arithmetic array decode
 
+## `Developed by: HKK`
+
 ---
 
 ## `$ cat ./summary.txt`
@@ -351,7 +353,7 @@ Severidade: CRÍTICA
 
 ## `$ cat ./new_findings.md`
 
-> Descobertas encontradas **exclusivamente via deobfuscação** — não visíveis no fluxo original do PDF.
+> Descobertas encontradas **exclusivamente via deobfuscação** — não visíveis no fluxo original.
 
 ```
 [!] DUPLO CAMINHO DE INFECÇÃO: sorteio aleatório 50/50 entre MSI e LNK em cada execução
