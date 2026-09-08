@@ -1,0 +1,19 @@
+title: Python spawna ChromeDriver fora de ambientes de desenvolvimento
+status: experimental
+description: Detecta pythonw.exe iniciando chromedriver.exe — padrão do WhatsApp spreader
+author: HKenzoKimura
+date: 2025-11-12
+tags:
+  - attack.execution
+  - attack.t1059.006
+logsource:
+  category: process_creation
+  product: windows
+detection:
+  selection:
+    ParentImage|endswith: '\pythonw.exe'
+    Image|endswith: '\chromedriver.exe'
+  condition: selection
+falsepositives:
+  - Ambientes de desenvolvimento com testes Selenium legítimos
+level: high
